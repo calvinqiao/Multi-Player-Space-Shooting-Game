@@ -12,16 +12,16 @@ before starting the game.
 
 2. How to run the project?
 For one player mode,
-1) Run Game Server.py
-2) Run Game Client-Broadcaster.py
-3) Press '1' to start the game
+(1) Run Game Server.py
+(2) Run Game Client-Broadcaster.py
+(3) Press '1' to start the game
 
 For two player mode,
-1) Run Game Server.py
-2) Run Game Client-Broadcaster.py
+(1) Run Game Server.py
+(2) Run Game Client-Broadcaster.py
 This client is responsible for generating all random game objects in the game including
 all types of enemies, supply stations, boss, etc.
-3) Run Game Client-Receiver.py
+(3) Run Game Client-Receiver.py
 This client receives the information of the broadcast messages sent by the other user and 
 generate game objects accordingly in order to sycronize the two games.
-4) Press '2' in both clients to start two player game
+(4) Press '2' in both clients to start two player game
